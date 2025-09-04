@@ -1,0 +1,20 @@
+programa
+{
+	funcao inicio()
+	{
+		real F,G,H
+		
+		escreva("base ")
+		leia(F)
+
+		escreva("altura ")
+		leia(G)
+
+		H = (F * G)/2 
+		
+
+		escreva("\nA soma dos números é igual a: ", H) 		// Exibe o resultado da soma
+		
+	}
+}
+
