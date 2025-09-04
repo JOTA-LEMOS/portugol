@@ -1,0 +1,27 @@
+programa {
+    funcao inicio() {
+        real F, G, H, J, K, L, A
+        
+        escreva("Nota 1: ")
+        leia(F)
+        
+        escreva("Nota 2: ")
+        leia(G)
+        
+        escreva("Nota 3: ")
+        leia(H)
+        
+        escreva("Peso da Nota 1: ")
+        leia(J)
+        
+        escreva("Peso da Nota 2: ")
+        leia(K)
+        
+        escreva("Peso da Nota 3: ")
+        leia(L)
+        
+        A = (F * J + G * K + H * L) / (J + K + L)
+        
+        escreva("Média Ponderada: ", A)
+    }
+}
