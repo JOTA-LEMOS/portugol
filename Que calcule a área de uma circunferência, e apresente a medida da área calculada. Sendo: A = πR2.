@@ -1,0 +1,14 @@
+programa
+{
+  funcao inicio()
+  {
+    real F, G
+
+    escreva("Digite o valor do raio da circunferência: ")
+    leia(F)
+
+    G = 3.14 * F * F
+
+    escreva("A área da circunferência de raio ", F, " é: ", G)
+  }
+}
