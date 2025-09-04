@@ -1,0 +1,25 @@
+programa
+{
+	funcao inicio()
+	{
+		real F,G,H,J,K
+		
+		escreva("Digite o primeiro número: ")
+		leia(F)
+
+		escreva("Digite o segundo número: ")
+		leia(G)
+		
+		escreva("Digite o primeiro número: ")
+		leia(H)
+
+		escreva("Digite o segundo número: ")
+		leia(J)
+
+		K =F + G + H + J
+
+			escreva("A Soma de ",F," + ",G," + ",H," + ",J," = ",K) 	
+				
+	
+	}
+}
