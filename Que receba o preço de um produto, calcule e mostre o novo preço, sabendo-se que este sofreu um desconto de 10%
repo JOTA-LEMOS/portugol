@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio()
+	{
+		real F,G
+		
+		escreva("o preço atual do produto: ")
+		leia(F)
+
+			G= F-F*(10/100)
+		
+			escreva("o preço do produto e de : ",F," e com o desconde de 10 % fica " ,G) 	
+				
+	
+	}
+}
+
